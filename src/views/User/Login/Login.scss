@@ -1,0 +1,173 @@
+.containPage {
+    padding: 20px 30px;
+  }
+  
+  .loginForm {
+    background-image: url(https://st4.depositphotos.com/1484771/37819/i/600/depositphotos_378193086-stock-photo-literature-reading-concept-banner-header.jpg);
+    margin-top: 40px;
+    border: none;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.69);
+    border-radius: 10px;
+  }
+  
+  .logo {
+    margin-bottom: 1rem;
+  
+    img {
+      width: 50px;
+    }
+  
+    .titleWeb {
+      transition: opacity 0.3s ease-in-out;
+      position: absolute;
+      font-size: 34px;
+      transform: translateY(2px);
+      color: #00ffcc;
+      font-weight: bold;
+    }
+  }
+  
+  .desLogin {
+    font-weight: bold;
+    color: #e6e6e6;
+  }
+  
+  .group {
+    display: grid;
+    grid-template-columns: 30px auto;
+    background-color: #333333;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 20px 0;
+  
+    label {
+      height: 100%;
+      position: relative;
+  
+      .iconForm {
+        display: flex;
+        padding: 5px 10px;
+        position: absolute;
+        transform: translateY(5px);
+      }
+    }
+  
+    .groupInput {
+      border: none;
+      outline: none;
+      padding: 5px;
+      background-color: transparent;
+      color: #ffffff;
+  
+      &::placeholder {
+        color: #ffffffad;
+      }
+    }
+  }
+  
+  .group2 {
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    background-color: #333333;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 20px 0;
+  
+    label {
+      height: 100%;
+      position: relative;
+  
+      .iconForm {
+        display: flex;
+        padding: 5px 10px;
+        position: absolute;
+        transform: translateY(5px);
+      }
+    }
+  
+    .groupInput {
+      border: none;
+      outline: none;
+      padding: 5px;
+      background-color: transparent;
+      color: #ffffff;
+  
+      &::placeholder {
+        color: #ffffffad;
+      }
+    }
+  
+    .iconPassword {
+      margin-top: 5px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .btnPay {
+    width: 200px;
+      padding: 12px;
+      background: #00f2fe;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    
+      &:hover {
+    
+        opacity: 0.6;
+      }
+  }
+  
+  .imageLogin {
+    max-width: 350px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background: linear-gradient(to left, #3a0e9f, #00b09b);
+    border-radius: 0%  80% 0% 80%;
+    div{
+        transition: opacity 0.3s ease-in-out;
+        font-size: 34px;
+        transform: translateX(-100px);
+        color: #fafafa;
+        font-weight: bold;
+    }
+    p{
+        font-weight: bold;
+        color: #e6e6e6;
+    }
+    .btn-register{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          padding: 12px;
+          background: #00f2fe;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          font-weight: bold;
+          transition: 0.3s;
+          cursor: pointer;
+        
+          &:hover {
+        
+            opacity: 0.6;
+            text-decoration: none;
+          }
+    }
+}
+  
